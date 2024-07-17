@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from XDF-N1 device
+# Inherit from XDF_N1 device
 $(call inherit-product, device/alps/XDF-N1/device.mk)
 
-PRODUCT_DEVICE := XDF-N1
-PRODUCT_NAME := omni_XDF-N1
+PRODUCT_DEVICE := XDF_N1
+PRODUCT_NAME := omni_XDF_N1
 PRODUCT_BRAND := XDF
-PRODUCT_MODEL := XDF-N1
+PRODUCT_MODEL := XDF_N1
 PRODUCT_MANUFACTURER := alps
 
 PRODUCT_GMS_CLIENTID_BASE := android-joyar
