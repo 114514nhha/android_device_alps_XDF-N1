@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_XDF-N1.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_XDF-N1-user \
-    omni_XDF-N1-userdebug \
-    omni_XDF-N1-eng
+    omni_XDF-N1_user \
+    omni_XDF-N1_userdebug \
+    omni_XDF-N1_eng
